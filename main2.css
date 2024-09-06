@@ -1,0 +1,318 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100vw;
+    background-color: black;
+}
+aside{
+    background-color: black;
+}
+
+
+section{
+    background-color: rgb(0, 0, 0);
+}
+
+span{
+    color: white;
+    size: 60px;
+}
+
+
+ .cw{
+    color: white;
+ }
+
+ 
+.him1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-right: 10px;
+    height: 55px;
+    overflow: hidden;
+    justify-content: right;
+}
+
+.him2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-right: 10px;
+    height: 55px;
+    overflow: hidden;
+
+}
+
+ h1{
+    font-size: clamp(20px, 3.6vw, 5vw);
+    margin: 5px;
+    font-family: "Courgette", cursive;
+    font-weight: lighter;
+ }
+
+ #folk{
+    transform: translateY(100%);
+ }
+
+ #fst {
+    margin: 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    transform: translateY(240%);
+    gap: 2vw;
+   
+}
+
+.ct{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    margin: 1%;
+}
+
+ h2{
+    font-size: 4vw;
+    margin: 10px;
+ }
+
+
+ .sv{
+    color: silver;
+ }
+
+ 
+.evo {
+    animation: grill 5s linear infinite;
+    margin: 0px;
+    font-size: clamp(2vw, 4vw, 7vw);
+    font-family: "Gugi", sans-serif;
+    font-weight: lighter;
+}
+
+@keyframes grill {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    62.5% {
+        transform: translateY(-100%);
+    }
+
+    87.5% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.eve {
+    animation: fli 5s linear infinite;
+    margin: 0px;
+    font-family: "Gugi", sans-serif;
+    font-weight: lighter;
+}
+
+span{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    border: none;
+}
+
+@keyframes fli {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(0%);
+    }
+
+    37.5% {
+        transform: translateY(-100%);
+    }
+
+    87.5% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+#menu{
+    size: 40px;
+}
+
+
+@media (min-width: 600px) {
+
+    
+#hq {
+    width: 30px;
+    margin: 5px;
+    
+}
+  
+    
+nav {
+    background-color: black;
+    transform: translate(-10%, 40%);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 40vw;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+    font-size: 2vw;
+    margin: 0%;
+}
+
+    section{
+        background-color: rgb(0, 0, 0);
+        width: 50vw;
+        height: 100%;
+    }
+
+    aside{
+        
+        width:50vw;
+        height: 100%;
+        background-image: url('pictures/Vector.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    span{
+        visibility: hidden;
+    }
+
+    #dwn{
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+    }
+    
+    #ed{
+        width: 15vw;
+    }
+
+    
+}
+
+
+
+@media (max-width: 600px) or (orientation: portrait){
+
+
+    .mv{
+        font-size: 8vw;
+    }
+
+    #mov{
+
+    }
+
+    
+    span{
+        visibility: visible;
+        size: 30px;
+    }
+
+    aside{
+        background-image: url('pictures/Vector2.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .him1, .him2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-right: 10px;
+        height: 100px;
+        overflow: hidden;
+        justify-content: right;
+    }
+
+    .bl{
+        font-size: 8vw;
+    }
+
+      
+.evo, .eve{
+    font-size: 8vw;
+    font-family: "Gugi", sans-serif;
+}
+
+    section{
+        background-color: rgb(0, 0, 0);
+        width: 100vw;
+        height: 40%;
+    }
+
+    aside{
+        background-color: rgb(0, 0, 0);
+        width:100vw;
+        height: 60%;
+       
+    }
+    nav{
+        visibility: hidden;
+    }
+
+    
+    #ed{
+        width: 30vw;
+    }
+
+    #fst{
+        transform: translateY(180%);
+    }
+
+    .hq1{
+        transform: translateY(-300%);
+        width: 100px;
+    }
+
+    .hq2{
+        transform: translate(-100% ,-150%);
+        
+    }
+
+    .hq3{
+        transform: translate(-200%, 0%);
+        width: 100px;
+    }
+
+    .hq4{
+        transform: translate( -150%,0%);
+        width: 100px;
+    }
+
+    
+#hq {
+    width: 7vw;
+    margin: 1px;
+}
+}
