@@ -256,9 +256,9 @@ a {
 
     #fst{
        
-        height: 30px;
+        height: 3.2vh;
         overflow: hidden;
-        transform: translateY(280%);
+        transform: translateY(380%);
     }
 
     section{
