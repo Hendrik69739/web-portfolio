@@ -1,8 +1,20 @@
+#dwn{
+    font-family: "Courier Prime", monospace;
+    font-size: 1.2vw;
+   }
+   
+#fvo{
+    font-family: "Antonio", sans-serif;
+}
+
+.card{
+    font-family: "Fredoka", sans-serif;
+}
 
 @media screen and (orientation: landscape){
     
     body{
-        background-color: ;
+        background-color: black;
         margin: 0%;
     }
     
@@ -97,7 +109,7 @@
     
      .ing{
         width: 80%;
-        background-color: aliceblue;
+        background-color: black;
      }
     
      #ing{
@@ -197,7 +209,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: black;
     height: 20vw;
     width: 20vw;
     margin-bottom: 5%;
@@ -246,6 +258,7 @@ a{
  #sec-3{
     background-color: black;
     height: 110vh;
+    margin-top: 5vh;
  }
 
  
@@ -258,7 +271,8 @@ a{
 }
 
 .fig{
-font-size: 5vw;
+font-size: 4.5vw;
+font-family: "IM Fell English", serif;
 }
 
 #one{
@@ -400,5 +414,230 @@ a{
 #mct{
     height: 100px;
 }
+
+}
+
+@media screen and (orientation: portrait){
+    body{
+        margin: 0px;
+    }
+    #sec-1{
+        background-color: black;
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: "Inter", system-ui;
+        font-size: 5vw;
+        font-weight: lighter;
+    }
+
+    #welcome{
+        width: 35vw;
+        border-radius: 100px;
+
+    }
+
+    h1{
+        color: white;
+    }
+
+    #pt{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fvo{
+        text-align: center;
+        font-size: 6vw;
+        color: white;
+        margin: 1vw;
+    }
+
+    .eve{
+        text-align: center;
+        color: white;
+    }
+
+    #sec-2{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rf{
+        color: white;
+    }
+
+    #card{
+        display: grid;
+        place-items: center;
+        background-color: aliceblue;
+        width: 60vw;
+        height: 40vh;
+        border-radius: 20px;
+        margin: 3%;
+    }
+
+    #tre, #two, #one{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card{
+        margin: 0%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #sec-3{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    #p{
+        color: white;
+        text-align: center;
+    }
+
+    #mov{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #des{
+        background-color: #181818;
+        width: 50vw;
+        margin: 5%;
+        height: 50vw;
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    #slide{
+        gap: 10vw;
+        transform: translateX(0%);
+        display: flex;
+        height: 50%;
+        
+        transform: translateX(-430%);
+        animation: puch 20s ease-in-out infinite;
+    }
+
+    @keyframes puch {
+        0%{
+            transform: translateX(50%);
+        }
+        50%{
+            transform: translateX(-430%);
+        }
+        100%{
+            transform: translateX(50%);
+        }
+    }
+
+    #mct{
+        height: 70%;
+    }
+
+    #siv{
+        color: white;
+    }
+
+    #dva{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #202020;
+        border-radius: 20px;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #ios{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ivg, #isx{
+        color: white;
+    }
+
+    #ivg{
+        font-size: 9vh;
+        margin: 0%;
+    }
+
+    article{
+        background-color: black;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+   
+    #het{
+        background-color: aliceblue;
+        height: 35vh;
+        width: 50vw;
+    }
+
+    .het{
+        width: 100%;
+    }
+
+    #hat{
+        margin-top: 15%;
+    }
+
+    button{
+        width: 30vw;
+        border-radius: 100px;
+        border: none;
+        background-color: #05FF00;
+        padding: 1.5vw;
+    }
+
+    #dwn{
+        color: black;
+        font-size: 4vw;
+    }
 
 }

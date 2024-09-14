@@ -11,6 +11,19 @@ main{
     overflow: hidden;
 }
 
+#bin{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #hbn{
     height: 100%;
 }
@@ -144,4 +157,48 @@ p{
     align-items: center;
     width: 50%;
     height: 100%;
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background-color: black;
+        height: 160vh;
+    
+    }
+
+    main{
+        height: 160vh;
+    }
+    a{
+        font-size: 3vw;
+    }
+
+    #sec-2-txt{
+        font-size: 3vw;
+    }
+
+    #pc{
+        height: 34vh;
+    }
+
+    #vin{
+        background-color: aqua;
+        height: 30%;
+    }
+
+    #owl{
+        height: 80%;
+    }
+
+    #sec-1{
+        height: 50vh;
+    }
+
+    #sec-2{
+        height: 50vh;
+    }
+
+    #sec-3{
+        height: 60vh;
+    }
 }
