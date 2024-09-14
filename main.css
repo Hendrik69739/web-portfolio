@@ -493,7 +493,6 @@ a{
     #card{
         display: grid;
         place-items: center;
-        background-color: aliceblue;
         width: 60vw;
         height: 40vh;
         border-radius: 20px;
@@ -628,11 +627,12 @@ a{
     }
 
     button{
-        width: 30vw;
+        width: 40vw;
         border-radius: 100px;
         border: none;
         background-color: #05FF00;
         padding: 1.5vw;
+        margin-top: 3%;
     }
 
     #dwn{
